@@ -1,12 +1,15 @@
 import { Route,Switch, BrowserRouter } from "react-router-dom";
-
+import { Calendar } from "./Components/Calendar";
+import "./App.css"
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
         <Route exact path = "/">
-          <div>Salami</div>
+         <Calendar>
+           
+         </Calendar>
 
         </Route>
       </Switch>

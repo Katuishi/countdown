@@ -1,0 +1,11 @@
+.title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 5rem;
+}
+
+.container {
+  height: 200px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
