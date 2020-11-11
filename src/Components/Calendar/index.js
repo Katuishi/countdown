@@ -13,7 +13,9 @@ export function Calendar(params) {
                 22,23,24,25,26,27,28]
   const dayOfWeek = ["Sun","Mon","Tue","Wed","Tue","Fri","Sat"]
 
-  
+  const currentDay = new Date().getDate()
+  const finalDay = 20
+  console.log(-1*(finalDay-currentDay))
   return (
     <div className={Style.container}>
       <Helmet>
@@ -24,7 +26,7 @@ export function Calendar(params) {
       <div className={Style.days_container}>
          {
             dayOfWeek.map((x)=>
-              (<div >{x}</div>)
+              (<div className={Style.day_week}>{x}</div>)
             )
           }
 

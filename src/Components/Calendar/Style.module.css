@@ -1,21 +1,22 @@
-:root{
-  --columns-row: 7;
-}
 .container {
   height: 100%;
   width: 100%;
 }
+
 .days_container {
-  
   display: flex;
   flex-flow: wrap;
   justify-content: center;
   align-items: center;
   flex-basis: 100%;
+  margin: 0 2rem 2rem 2rem;
 }
 
-
-
-.days_container > *{
+.days_container > * {
   flex: 1 0 14%;
+}
+
+.day_week {
+  font-size: 2rem;
+  text-align: center;
 }
