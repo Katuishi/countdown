@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+.title {
+  font-family: "Merriweather", serif;
+  font-size: 6rem;
+}
+
+.container {
+  height: 150px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.box {
+  height: 80%;
+  width: 80%;
+  display: grid;
+  place-items: center;
+  margin-bottom: 50px;
+}
+

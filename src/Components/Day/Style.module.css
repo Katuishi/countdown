@@ -6,8 +6,13 @@
 }
 
 .day_number {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-top: 8px;
   margin-left: 8px;
 }
 
+.mark{
+  font-size: 5rem;
+  text-align: center;
+  color: red;
+}

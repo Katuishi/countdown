@@ -9,12 +9,11 @@ export function getDayWithWeekend(dayLimit) {
     let temp = new Date();
 
     temp.setDate(temp.getDate() + i);
-    
+
     if (temp.getDay() === 0 || temp.getDay() === 6) {
       leastDay -= 1;
     }
   }
 
-    return -1 * leastDay;
-  
+  return -1 * leastDay;
 }

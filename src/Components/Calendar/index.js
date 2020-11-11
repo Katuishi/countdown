@@ -3,7 +3,8 @@ import { Helmet } from "react-helmet";
 import { Title } from "../Title";
 import Style from "./Style.module.css";
 import { Day } from "../Day";
-import { Qoute } from "../Qoute";
+import { Counter } from "../Counter";
+import { Qoute } from "../Qoute ";
 
 export function Calendar(params) {
   // const calendarDay = new Date()
@@ -55,7 +56,7 @@ export function Calendar(params) {
           <Day number={x}></Day>
         ))}
       </div>
-
+      <Counter></Counter>
       <Qoute></Qoute>
     </div>
   );
