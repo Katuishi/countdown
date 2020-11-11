@@ -11,6 +11,7 @@ export function Calendar(params) {
                 8,9,10,11,12,13,14,
                 15,16,17,18,19,20,21,
                 22,23,24,25,26,27,28]
+  const dayOfWeek = ["Sun","Mon","Tue","Wed","Tue","Fri","Sat"]
 
   
   return (
@@ -21,6 +22,12 @@ export function Calendar(params) {
 
       <Title/>
       <div className={Style.days_container}>
+         {
+            dayOfWeek.map((x)=>
+              (<div >{x}</div>)
+            )
+          }
+
           {
             days.map((x)=>
               (<Day number={x}></Day>)

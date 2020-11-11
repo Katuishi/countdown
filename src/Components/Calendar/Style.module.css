@@ -1,10 +1,21 @@
+:root{
+  --columns-row: 7;
+}
 .container {
   height: 100%;
   width: 100%;
 }
 .days_container {
- display: flex;
- flex-flow: wrap;
- justify-content: center;
- align-items: center;
+  
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+}
+
+
+
+.days_container > *{
+  flex: 1 0 14%;
 }
